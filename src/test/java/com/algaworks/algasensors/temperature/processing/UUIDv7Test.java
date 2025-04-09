@@ -1,5 +1,7 @@
 package com.algaworks.algasensors.temperature.processing;
 
+import com.algaworks.algasensors.temperature.processing.common.IdGenerator;
+import com.algaworks.algasensors.temperature.processing.common.UUIDv7Utils;
 import java.time.OffsetDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.UUID;
