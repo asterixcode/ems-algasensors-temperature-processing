@@ -17,7 +17,7 @@ public class RabbitMQConfig {
 
   @Bean
   public FanoutExchange exchange() {
-    return ExchangeBuilder.fanoutExchange("temperature.processing-temperature-received.v1.e")
+    return ExchangeBuilder.fanoutExchange("temperature-processing.temperature-received.v1.e")
         .build();
   }
 }
